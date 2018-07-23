@@ -1,9 +1,10 @@
-#What is Hashing?
+## What is Hashing?
 
 
 Hashing, in cryptography is the process of mapping a given arbitrary amount of data to a fixed length digest. Since it is deterministic
 in nature, the same input given will produce the same output value every time. It is a mathematical algorithm that maps the input 
 to a fixed length value and is designed to be a one-way (non-invertible) function.
+
 For e.g. consider the following hash function h, that returns the ASCII value and next two characters in series, for the first character
 of the given input: 
 
