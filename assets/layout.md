@@ -4,28 +4,28 @@
  - [x] Merkle trees
 
 ##  All about Blockchain
- - [ ] History
+  - [ ] History
   - [ ] Principles
- - [ ] Centralized vs. distributed
- - [ ] Game Theory
+  - [ ] Centralized vs. distributed
+  - [ ] Game Theory
   - [ ] Trust 
   - [ ] Types of nodes
   - [ ] Consensus algorithm
-- [ ]  Architecture
+  - [ ]  Architecture
       
       * Blocks
       * Transactions
       * Blockchain
   - [ ] Scripts
   - [ ] Confirmation
- - [ ] Difficulty
- - [ ] Wallet
- - [ ] Use cases
- - [ ] Hashcash
- - [ ] Mining
- - [ ] Myths
- - [ ] WIF
+  - [ ] Difficulty
+  - [ ] Wallet
+  - [ ] Use cases
+  - [ ] Hashcash
+  - [ ] Mining
+  - [ ] Myths
+  - [ ] WIF
   - [ ] Weaknesses
   
 ##  Ethereum
- - [ ] History
+  - [ ] History
