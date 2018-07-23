@@ -22,7 +22,7 @@ The ideal cryptographic hash function has the following properties:
 *	a small change to the message should change the hash extensively so that the old and new value appear completely unrelated.
 *	No two strings must have the same hash value i.e. h(x1) ≠h(x2) for x1 and x2
 
-
+![hash.jpg](/assets/hash.jpg)
 
 A non-perfect but a good example of hashing algorithm is the SHA-3.
 Several variants like SHA3-256 and SHA3-512 exists. Several other hashing algorithms exist like SHA-1 and MD5 which are obsolete now.
