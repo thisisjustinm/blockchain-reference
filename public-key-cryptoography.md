@@ -10,11 +10,14 @@ but the message can be decrypted only by the receiver’s private key.
 Due to the complex nature of asymmetric encryption, it is usually used only to transfer small bytes of data, 
 like a symmetric encryption key. This key may then be used to encrypt the rest of the message.
 
-An example is, 
+An example is,
+
 ![pkc1.jpg](/assets/pkc2.JPG)
+
 A key generation algorithm is used to generate Alice's keys
 
 ![pkc2.jpg](/assets/pkc1.JPG)
+
 Bob encrypts the message HELLO using Alice's public key and sends it to her. Alice decrypts it using her private key.
 
 Public key cryptography is a main component of security, in various applications and protocols. 
