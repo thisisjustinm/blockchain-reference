@@ -14,11 +14,12 @@ of the given input:
 
  But this cannot be considered as a “good” hash function, because we can see that collisions occur for words starting with the same
 letter of the alphabet. A perfect hash function maps every key to a different value. 
+
 The ideal cryptographic hash function has the following properties:
-•	should be deterministic
-•	should be non-invertible
-•	a small change to the message should change the hash extensively so that the old and new value appear completely unrelated.
-•	No two strings must have the same hash value i.e. h(x1) ≠h(x2) for x1 and x2
+*	should be deterministic
+*	should be non-invertible
+*	a small change to the message should change the hash extensively so that the old and new value appear completely unrelated.
+*	No two strings must have the same hash value i.e. h(x1) ≠h(x2) for x1 and x2
 
 
 
