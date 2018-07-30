@@ -29,13 +29,13 @@ The following is an example of a PGP public key:
 Comment:
 Version:
 
-vn586vy94Nkafgbgaaioief84toew0403n6v1yuI7kXp8NjFmb/x37KeqUHujegAMX09Y
-vrEUeyzSrO2FwKgBisIy/0gyw0ucJNd6xSreE
-UZGZA46G+fblqQYRf4PeLmR9EsFdgv3orufUjBC+LYZ+bd9mR9EsFdgv3orufUjBC+yZO/0p7JYGrlzbbI0BS+PCj2/4gyw0ucJNd6xSreE
-UZGZA46G+fblqQYRf4PeLmR9EsFdgv3orufUjBC+yZO/0p7JYRjyN+K8cl5HzkVDOvkCb0G+1nP
-3fNz1xCfwiK5Tghe/iZMxPZVJHgwyIYI+vnGrlzbbI0BS+PCj2/4gyw0ucJNd6xSreE
-UZGZA46G+fblqQYRf4PeLmR9EsFdgv3orufUjBC+LYZ+bd9mR9EsFdgv3orufUjBC+yZO/0p7JYRjyN+K8cl5HzkVDOvkCb0G+1nP
-3fNz1xCfwiK5Tghe/iZMxPZVJHgwyIfnBkyOt6F4Zvxb64itvn3784ft5f936
+vn586vy94Nkafgbgaaioief84toew0403n6v1yuI7kXp8NjFmb/x37KeqUHujegAMX09YvrEUeyzSrO2FwKgBisIy/
+0gyw0ucJNd6xSreEUZGZA46G+fblqQYRf4PeLmR9EsFdgv3orufUjBC+LYZ+bd9m
+R9EsFdgv3orufUjBC+yZO/0p7JYGrlzbbI0BS+PCj2/4gyw0ucJNd6xSreEUZGZA
+46G+fblqQYRf4PeLmR9EsFdgv3orufUjBC+yZO/0p7JYRjyN+K8clHzkVDOvkCb0G+1nP3fNz1xCfwiK
+5Tghe/iZMxPZVJHgwyIYI+vnGrlzbbI0BS+PCj2/4gyw0ucJNd6xSreEUZGZA46G+fb
+lqQYRf4PeLmR9EsFdgv3orufUjBC+LYZ+bd9mR9EsFgv3orufUjBC+yZO/0p7JYRjy
+N+K8cl5HzkVDOvkCb0G+1nP3fNz1xCfwiK5Tghe/iZMxPZVJHgwyIfnBkyOt6F4Zvxb64itvn3784ft5f936
 
 -----END PGP PUBLIC KEY BLOCK-----
 ```
