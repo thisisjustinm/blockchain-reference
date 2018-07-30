@@ -10,7 +10,10 @@ but the message can be decrypted only by the receiver’s private key.
 Due to the complex nature of asymmetric encryption, it is usually used only to transfer small bytes of data, 
 like a symmetric encryption key. This key may then be used to encrypt the rest of the message.
 
-An example is,
+Public key cryptography is a main component of security, in various applications and protocols. 
+Various internet standards such as TLS and PGP use Public key cryptography. 
+
+An example in case of PGP is,
 
 ![pkc1.jpg](/assets/pkc2.JPG)
 
@@ -18,7 +21,18 @@ A key generation algorithm is used to generate Alice's keys
 
 ![pkc2.jpg](/assets/pkc1.JPG)
 
-Bob encrypts the message HELLO using Alice's public key and sends it to her. Alice decrypts it using her private key.
+Bob encrypts the message _HELLO_ using Alice's public key and sends it to her. Alice decrypts it using her private key.
 
-Public key cryptography is a main component of security, in various applications and protocols. 
-Various internet standards such as TLS and PGP use Public key cryptography. 
+The following is an example of a PGP public key:
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+Comment: _Comment_
+
+Version: _Version_
+
+vn586vy94Nkafgbgaaioief84toew0403n6v1yuI7kXp8N....
+......
+......xb64itvn3784ft5f936
+
+-----END PGP PUBLIC KEY BLOCK-----
