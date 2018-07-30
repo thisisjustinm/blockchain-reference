@@ -13,65 +13,79 @@ like a symmetric encryption key. This key may then be used to encrypt the rest o
 Public key cryptography is a main component of security, in various applications and protocols. 
 Various internet standards such as TLS and PGP use Public key cryptography. 
 
-An example in case of PGP is,
-
-![pkc1.jpg](/assets/pkc2.JPG)
-
-A key generation algorithm is used to generate Alice's keys
-
-![pkc2.jpg](/assets/pkc1.JPG)
-
-Bob encrypts the message _HELLO_ using Alice's public key and sends it to her. Alice decrypts it using her private key.
-
-An example of Alice's private and public keys can be see here.
+#### Example:
+![pkc1.jpg](/assets/pkc2.JPG) ![pkc2.jpg](/assets/pkc1.JPG)
+Alice generates a public-private key pair using a key generator algorithm.
+The public key maybe made available on keyservers and can be shared by Alice. Bob encrypts the message he wishes to send using her public key, and Alice decrypts it using her private key.An example of Alice's private and public keys, as well as the message can be see here.
 ```
 -----BEGIN PGP PRIVATE KEY BLOCK-----
-Version: 
+Version: BCPG C# v1.6.1.0
 
-lQOsBFtfJzoBCADBZ6/nIATLbudrX8PtNZQu6FsEDNz65gD7FQgpwRFkZV/ENrKL
-zHmKDU7CZib7NxEEp+fXJ1bIZlbMhgqa/7/R1X78tGpT5+umXBuAEJuyoL05BOgO
-1b0q+zjexewJuevGyjuI7hCTUd2ERKfOFhihS1gO+XwJUgWYd15iAunWDKwLFnQB
-up/IDwnleFOLUBpqdTcCiTJ/y+PF6WsuiS7/MR7Lv9kBX8H5R8IK+U4EowKxw0SV
-ZNb3lSmB+plbKKrHGz/BVpVmfG/UgJNutTp2wN9LTPj4dl04djLeHtT4w2Nt/wri
-SL3strAjcw5AtQUqIwnmP4kRDEIdapgmVp+1ABEBAAH/AwMCAOra8vndqQ9gnKpd
-rhigzWB91UKsx7bDVKysfMmGRh6kseagBgsZJZQ3AzSkXNkVg32Eq/S/zx11QVI4
-JfZlipVitmDy9vVTyytar3mUAeB9fU6XKNFdacQb6i2NAbNdGJUBZjhSWpXVipPt
-UvYHvgHu3bIo9hhZZmZbJZ7XeZ/2L6I9CeF1vJOsxo4tv33aFn0XkMtUFClD2ry
-Olun/IOIgiSpa8V0klrAHdcp6sJH13ZrSKIztiyr+EnAiT61aMvnbMfP
-1EzF11iSlgklNwwkhyt4Ipm2KmAqcJheA1KjMPvrCBxxQgMH76KM2s8HWj5tGiWW
-93EaoO0lAVQgNveLrlQdlayBaGb25X5ZBunDgGBwT1zUmYZNet+iGCfVI6I9zVBD
-ORLpiKMlTusy5LvhpI0wV4FV52LLl8MsEGcKIQuBWxHOtuAU4IGEVLhxAfLW+0kdE9zzL4ZSX
-x/fDYEqVIXVZmphhZZmZbJZ7XeZ/2L6I9CeF1vJOsxo4tv33aFn0XkMtUFClD2ry
-Olun/IOIgiSpa8V0klrAHdcp6sJH13ZrSKIztiyr+EnAiT61aMvnbMfP
-1EzF11iSlgklNwwkhyt4Ipm2KmAqcJheA1KjMPvrCBxxQgMH76KM2s8HWj5tGiWW
-93EaoO0lAVQgNveLrlQdlayBaGb25X5ZBunDgGBwT1zUmYZNet+iGCfVI6I9zVBD
-ORLpiKMlTusy5LvhpI0wV4TJ/ON/h85KMONcOs1gdwR9ZgPf/foSXEs0397T+o7t
-J4MSra8etsNvsurk77euIdZwzqd4n9Ft1s/Piw7AorQAiQEcBBABAgAGBQJbXyc6
-AAoJEEY9Grfgd3/m/EUIAKgQCJoKcxC6DDNlf1u4AXj5rcGKCPc/TFVDivXNufZJ
-lJcBbc6+LsNIEIlfraaFRpTOYhKzB8aPlLnHkb/kJMelRCbKG1xAVrYJnV34hRxa
-N6GkiWhzwahCD6vmMXI6fi+OVXMBrwYoTEZimo+jUeK5FX+uRxz9eJhSCqAtQCXX
-gVuVtk+0xKu+d/+YqA0Gsz0Jo1EKuL+AbhbPyDPkqD0ZM87qgogj8gE+aL/SV/5w
-g5dTZn0FBJPD00p8X9S5qpNh3YtLZl3VpQbB2bqNNvEoUR4nLrzBrPf1bAJpxs9y
-M9CmO+mOfnxuqq3nPDCprfXp79HugltGOZVN1QWyNCg=
-=nPDk
+lQOsBFtfKWoBCACgkqqmsqfOws9ekPJNMoorpQVHIz5YNbiqzf4gAh1JpmY2Bdw1
+soTfDayOjNRCOqpHW85vw14JNGjsWlSmy+FoCWmP+oEDdo8q8EabnwSS8oIhjC9X
+6l3m0zaC1GXw0ZP/5lvWvPYscSA+7OlFq9Sc8Y3kfdfNbubYZRam3WuMNFk28aTY
+zQGOvUlOb5cPlEnsnvwME7OaAjEC8NLAa958wNfi30fD6W2nvkf5X0OKKfRoL18J
+1p58TnQtoR4jL7AvU3alx/8rPKyOVbMiPYdc2nC/kGR29t0Gba1r/x6SYDOkGrlF
+HpM8TcT5VDK2TzFxnH0CIYVQuAJz7lXHEI8HABEBAAH/AwMCyHT3cv46zopgsQUz
+ZOPP8oBZkB8QuNSTrv0iMm1MlJI8ypPuMr575jtJkViw2uy3FskX/un/xAm+tXe4
+y4E9kf94OwCLSh6WceXZSujwucj9zJpQp/NF0lADYnmNHEPphJhP04JyvB7Qgh5E
+ukjj1I3nbz+eHZu/7d237J0pjZ5IZZRlg2F1STsK05zXGFNu0d2KTVV24y6sQGjW
+BhfWhlPfyIZErSXW2VpRd4jSEVkF4+z5aMZFU42VG8FxfG27rcBoBskszfkzR//B
+B09kvTXz8NZ8F2NR661UtTzbkvoN46lELnNYtV0I53KKzNSvPvRioTsXE5hIvE11
+S/vMsCGs2PlF3YnYZUcYaAbOKIGD0JJOmbPGZ9l8XZi7LiG+oCu2Bmt5zwg2AEd/
+u+SMGLw4gzO64JGKv/m0RSrtmhehymPzFG3GLArSJpCyj9871dW8jzX5TXhpd1Ge
+Qbs92GSs3CX+v8P5gXf7ooJE3lc2vWPA0p7x33/3zaHQpK8EVY2xfB0yV7zIWUPp
+wBitaRhoyLQlAI/MwIIVnMXNmWq5wxGuzIp4ADdH4f62paO2QXU82/+oLOotsuLd
+HS2E8mGzPVf4VMB6J+9u1jV4EBR+/ejC25PGreD/lyipRxn2Xz7B1woW0DOdozY7
+DHPxJYJK2cf+AzRUCy4cyxHlMX/bTM1tcncZ/xN32Ttbvm/4UqWTMTYDQV7IsNku
+uTKayuvB2NmSIJCu1+U/jW51zKZFXwGusKa9gXme+mp2CW1SOXp4DA/IeJiZOdiW
+plETg8MHoiocrI0cMwHjXiLdL06k/mPi+RR3EVIedSzHbIit9eyM6UuK17082zZn
+wZRD2zr9nUgmU23gBk+GZSsbVuLR60/nqg8rSy5r/rQAiQEcBBABAgAGBQJbXylq
+AAoJEEdO99lHU7E2NJ0H/ikDttfEmCtsF708Z9taE2Vt/F0rStdVHJyRTOsbHoHr
+MJzi0OpDtcq93tJ0Fm+tzHjmITgDZZImRPU4jnS0jSEbQOQAw7ZzdoltH1L51mvh
+1Wkf6dqRMX03o4nbTsB2fJC7YhfS9BccAGLETeRUFYKqjBD5zB2E45GIuEtC7vEl
+WA19qSxSMS0GbdkErDdy4zN64El09X6WPcxr7qNB37h1Kh4S6Q9RV4+kSgSmsAjs
+5FNtDcYj5vJBJXDHRrLljjz+7FQ/KWLXBK3j7Oh7ZOVJzvkboXDdd1JmMvgQ5HiV
+19hPPMKi1zx7Q3xJmtSj6nQ6jeOmKXVBP0JVfZ3NvdM=
+=HyZr
 -----END PGP PRIVATE KEY BLOCK-----
+
 ```
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-Version: 
+Version: BCPG C# v1.6.1.0
 
-mQENBFtfJzoBCADBZ6/nIATLbudrX8PtNZQu6FsEDNz65gD7FQgpwRFkZV/ENrKL
-zHmKDU7CZib7NxEEp+fXJ1bIZlbMhgqa/7/R1X78tGpT5+umXBuAEJuyoL05BOgO
-1b0q+zjexewJuevGyjuI7hCTUd2ERKfOFhihS1gO+XwJUgWYd15iAunWDKwLFnQB
-up/IDwnleFOLUBpKExGYfXJ1bIZlbMhgqa/7/R1X78tGpT5+umXBuAEJuyoL05BOgO
-1b0q+zjexewJuevGyjuI7hCTUd2ERKfOFhihS1gO+XwJUgWYd15iAunWDKwLFnQB
-up/IDwnleFOLUBpKExGYpqPo1HiuRV/rkcc/XiYUgqgLUAl
-14FblbZPtMSrvnf/mKgNBrM9CaNRCri/gG4Wz8gz5Kg9GTPO6oKII/IBPmi/0lf+
-cIOXU2Z9BQSTw9NKfF/UuaqTYd2LS2ZdpqPo1HiuRV/rkcc/XiYUgqgLUAl
-14FblbZPtMSrvnf/mKgNBrM9CaNRCri/gG4Wz8gz5Kg9GTPO6oKII/IBPmi/0lf+
-cIOXU2Z9BQSTw9NKfF/UuaqTYd2LS2Zd1aUGwdm6jTbxKFEeJy68waz39WwCacbP
-cjPQpjvpjn58bqqt5zwwqa316e/R7oJbRjmVTdUFsjQo
-=Pl2l
+mQENBFtfKWoBCACgkqqmsqfOws9ekPJNMoorpQVHIz5YNbiqzf4gAh1JpmY2Bdw1
+soTfDayOjNRCOqpHW85vw14JNGjsWlSmy+FoCWmP+oEDdo8q8EabnwSS8oIhjC9X
+6l3m0zaC1GXw0ZP/5lvWvPYscSA+7OlFq9Sc8Y3kfdfNbubYZRam3WuMNFk28aTY
+zQGOvUlOb5cPlEnsnvwME7OaAjEC8NLAa958wNfi30fD6W2nvkf5X0OKKfRoL18J
+1p58TnQtoR4jL7AvU3alx/8rPKyOVbMiPYdc2nC/kGR29t0Gba1r/x6SYDOkGrlF
+HpM8TcT5VDK2TzFxnH0CIYVQuAJz7lXHEI8HABEBAAG0AIkBHAQQAQIABgUCW18p
+agAKCRBHTvfZR1OxNjSdB/4pA7bXxJgrbBe9PGfbWhNlbfxdK0rXVRyckUzrGx6B
+6zCc4tDqQ7XKvd7SdBZvrcx45iE4A2WSJkT1OI50tI0hG0DkAMO2c3aJbR9S+dZr
+4dVpH+nakTF9N6OJ207AdnyQu2IX0vQXHABixE3kVBWCqowQ+cwdhOORiLhLQu7x
+JVgNfaksUjEtBm3ZBKw3cuMzeuBJdPV+lj3Ma+6jQd+4dSoeEukPUVePpEoEprAI
+7ORTbQ3GI+byQSVwx0ay5Y48/uxUPyli1wSt4+zoe2TlSc75G6Fw3XdSZjL4EOR4
+ldfYTzzCotc8e0N8SZrUo+p0Oo3jpil1QT9CVX2dzb3T
+=q5t3
 -----END PGP PUBLIC KEY BLOCK-----
+
 ```
+
+```
+-----BEGIN PGP MESSAGE-----
+Version: BCPG C# v1.6.1.0
+
+hQEMA0dO99lHU7E2AQgAhltsAxHHqbWjNDnr2Wvk5Ovy6TWvw48Q69BlHYqO6aTv
+WXOLH8fW9oNyMU8q+pVDuYN7URDwz4yyLBQyst+7okM74hto753namCozu/tOOF5
+TM7LFBxvnphkTot34kI9NVpw4lBZl/sp8ALiEEchlPXcNOzlwsmXM7Hegb0NzgfE
+xTX+ArbWndZKKzpfc2jeoYalFc6W9Ird23oXn7AbylCLfuqeKtMPrI2nE8Wau58L
+T5WzEZsboHkhTPBOjZ0FVOHDC4ENB8fj1zJC4r6ADCRLqMX/MgwlfkkMByxvt9sw
++ELG0ZyRwaCtheOf7SWKCQ8jQydMSasVZ0THbUEYG8kryVBfEz6R8dJjcoa90j6/
+aAV/5cqsW5F4eao2jANv2KjIJ0OEpero5janjQ==
+=BDlJ
+-----END PGP MESSAGE-----
+```
+
+Keys and message generated [here](http://www.igolder.com/pgp/).
