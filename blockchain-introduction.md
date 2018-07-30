@@ -7,7 +7,7 @@ Blockchain, attempts to solve these problems, i.e.
 *	Fast
 *	Free of cost
 
-Blockchain is an open, decentralized ledger which is peer-to- peer in nature.
+Blockchain is an open, decentralized ledger which is ```peer-to-peer``` in nature.
 Each block in a blockchain contains a cryptographic hash of the previous block, a timestamp, and transaction data.
 The blocks in the blockchain hold batches of valid transactions, which are hashed and encoded into a Merkle tree. 
 Each block requires a cryptographic hash of the last/previous block in the blockchain, thus linking both. 
@@ -21,7 +21,7 @@ There are three principles involved. Ledgers should be:
 Ledgers should be open, so that anyone can see what transactions have taken place. 
 A single copy of the ledger means that it should be guarded by some third party.
 So, multiple copies of the open ledger will be maintained, hence distributed. 
-Anyone can choose to keeps a copy of the ledger, and hence become a “miner”.
+Anyone can choose to keeps a copy of the ledger, and hence become a ```miner```.
 Miners maintain a copy of the open ledger. 
 
 Suppose, a new transaction is to be added.
