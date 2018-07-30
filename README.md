@@ -1,7 +1,26 @@
-## blockchain-reference-guide
+### Layout
 
-1. [What is Hashing?](/what-is-hashing.md)
-2. [Public Key Cryptography](/public-key-cryptography.md)
-3. [Merkle trees](/merkle-trees.md)
-4. [Introduction to Blockchain](/blockchain-introduction.md)
-5. [Transactions](/transactions.md)
+* [x] **Cryptography Essentials**
+  * [x] What is Hashing?
+  * [x] Public-key cryptography
+  * [x] Merkle trees
+ 
+* [ ] **Blockchain**
+  * [x] Introduction
+  * [ ] Decentralised vs Distributed
+  * [ ] Blocks
+  * [ ] Mining - Difficulty,Nonce, Mempool
+  * [ ] Nodes\(```Full```,```Pruned```\)
+  * [ ] Transactions\(```Regular```,```Coinbase```\)
+  * [ ] UTXOs
+  * [ ] Consensus algorithms\(```PoW```,```PoS```\)
+  * [ ] Architecture\(```Blocks```,```Transaction```,```Blockchain```\)
+  * [ ] Scripts
+  * [ ] Wallet -```WIF, Deterministic, Hardware, Brainwallet```
+  * [ ] Use cases
+  * [ ] Hashcash
+  * [ ] Myths
+  * [ ] Weaknesses
+  
+* [ ] **Ethereum**
+  * [ ] Introduction
