@@ -5,7 +5,7 @@ There are two keys involved:
 * public key, known to every one and  
 * private key only known to the owner.  
 
-In this system, any person can encrypt a message using the receiver’s public key, 
+Both keys have a one-to-one relation with each other i.e. there is a single private key for each public key. Also, documents can be digitally signed, using the private key, which can be verified using the public key, hence giving a proof of ownership/identity and proof of intent. In this system, any person can encrypt a message using the receiver’s public key, 
 but the message can be decrypted only by the receiver’s private key.
 Due to the complex nature of asymmetric encryption, it is usually used only to transfer small bytes of data, 
 like a symmetric encryption key. This key may then be used to encrypt the rest of the message.
