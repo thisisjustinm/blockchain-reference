@@ -24,15 +24,18 @@ A key generation algorithm is used to generate Alice's keys
 Bob encrypts the message _HELLO_ using Alice's public key and sends it to her. Alice decrypts it using her private key.
 
 The following is an example of a PGP public key:
-
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment:
+Version:
 
-Comment: _Comment_
-
-Version: _Version_
-
-vn586vy94Nkafgbgaaioief84toew0403n6v1yuI7kXp8N....
-......
-......xb64itvn3784ft5f936
+vn586vy94Nkafgbgaaioief84toew0403n6v1yuI7kXp8NjFmb/x37KeqUHujegAMX09Y
+vrEUeyzSrO2FwKgBisIy/0gyw0ucJNd6xSreE
+UZGZA46G+fblqQYRf4PeLmR9EsFdgv3orufUjBC+LYZ+bd9mR9EsFdgv3orufUjBC+yZO/0p7JYGrlzbbI0BS+PCj2/4gyw0ucJNd6xSreE
+UZGZA46G+fblqQYRf4PeLmR9EsFdgv3orufUjBC+yZO/0p7JYRjyN+K8cl5HzkVDOvkCb0G+1nP
+3fNz1xCfwiK5Tghe/iZMxPZVJHgwyIYI+vnGrlzbbI0BS+PCj2/4gyw0ucJNd6xSreE
+UZGZA46G+fblqQYRf4PeLmR9EsFdgv3orufUjBC+LYZ+bd9mR9EsFdgv3orufUjBC+yZO/0p7JYRjyN+K8cl5HzkVDOvkCb0G+1nP
+3fNz1xCfwiK5Tghe/iZMxPZVJHgwyIfnBkyOt6F4Zvxb64itvn3784ft5f936
 
 -----END PGP PUBLIC KEY BLOCK-----
+```
