@@ -15,6 +15,7 @@ Various internet standards such as TLS and PGP use Public key cryptography.
 
 #### Example:
 ![pkc1.jpg](/assets/pkc2.JPG) ![pkc2.jpg](/assets/pkc1.JPG)
+
 Alice generates a public-private key pair using a key generator algorithm.
 The public key maybe made available on keyservers and can be shared by Alice. Bob encrypts the message he wishes to send using her public key, and Alice decrypts it using her private key.An example of Alice's private and public keys, as well as the message can be see here.
 ```
