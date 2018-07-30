@@ -6,12 +6,13 @@ in nature, the same input given will produce the same output value every time. I
 to a fixed length value and is designed to be a one-way (non-invertible) function.
 
 For e.g. consider the following hash function h, that returns the ASCII value and next two characters in series, for the first character
-of the given input: 
+of the given input:
 
-* h (a)  =>  97bc
-* h (cat)  => 99de
-* h (ant)  => 97bc
-
+```String``` | ```Hash```
+------------ | -------------
+```h(a)``` | ```97bc```
+```h(cat)``` | ```99de```
+```h(at)``` | ```97bc```
 
  But this cannot be considered as a “good” hash function, because we can see that we get similar hashes for words starting with the same
 letter of the alphabet. A perfect hash function maps every key to a different value. 
