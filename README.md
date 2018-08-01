@@ -10,9 +10,9 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
 * [ ] **Blockchain**
   * [x] Introduction
   * [ ] Decentralised vs Distributed
-  * [ ] Transactions\(```Regular```,```Coinbase```\)
+  * [ ] Transactions\(```Regular,Coinbase```\)
   * [ ] Blocks
-  * [ ] Nodes\(```Full```,```Pruned```\)
+  * [ ] Nodes\(```Full,Pruned```\)
   * [ ] Mining - ```Difficulty,Nonce, Mempool```
   * [ ] UTXOs
   * [ ] Consensus algorithms\(```PoW```,```PoS```\)
