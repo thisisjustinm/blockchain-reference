@@ -3,9 +3,9 @@
 I am writing this guide, to get well acquainted with Blockchain, as well as a reference guide for my Android application. Everything written here is copyleft, so use it in any way you like.
 
 * [x] **Cryptography Essentials**
-  * [x] What is Hashing?
-  * [x] Public-key cryptography
-  * [x] Merkle trees
+  * [x] [What is Hashing?](/cryptography/what-is-hashing.md)
+  * [x] [Public-key cryptography](/cryptography/public-key-cryptography.md)
+  * [x] [Merkle trees](/cryptography/merkle-trees.md)
  
 * [ ] **Blockchain**
   * [x] Introduction
