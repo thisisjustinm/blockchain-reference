@@ -26,3 +26,13 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
   
 * [ ] **Ethereum**
   * [ ] Introduction
+
+
+
+
+
+Feel free to donate:
+
+* BTC : ```3LaFBhv4fR9HNdG7rW72CURqiqaENQLJ8a```
+* ETH : ```0x5D26D0062e49C26Ee283CB80C70Bf54bD39016D7```
+* LTC : ```MPwon17zrZApPyVjg6WgMuwkyQDE98gBMN```
