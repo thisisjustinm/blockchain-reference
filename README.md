@@ -30,7 +30,7 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
 
 
 
-
+___
 Feel free to donate:
 
 * BTC : ```3LaFBhv4fR9HNdG7rW72CURqiqaENQLJ8a```
