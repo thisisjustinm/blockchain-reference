@@ -8,7 +8,7 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
   * [x] [Merkle trees](/cryptography/merkle-trees.md)
  
 * [ ] **Blockchain**
-  * [x] Introduction
+  * [x] [Introduction](/blockchain/blockchain-introduction.md)
   * [ ] Decentralised vs Distributed
   * [ ] Transactions\(```Regular,Coinbase```\)
   * [ ] Blocks
