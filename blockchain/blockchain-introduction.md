@@ -8,8 +8,8 @@ Blockchain, attempts to solve these problems, i.e.
 *	Free of cost
 
 Blockchain is an open, decentralized ledger which is ```peer-to-peer``` in nature.
-Each block in a blockchain contains a cryptographic [hash](https://github.com/thisisjustinm/blockchain-reference/blob/master/what-is-hashing.md) of the previous block, a timestamp, and transaction data.
-The blocks in the blockchain hold batches of valid transactions, which are hashed and encoded into a [merkle tree](https://github.com/thisisjustinm/blockchain-reference/blob/master/merkle-trees.md). 
+Each block in a blockchain contains a cryptographic [hash](https://github.com/thisisjustinm/blockchain-reference/cryptography/what-is-hashing.md) of the previous block, a timestamp, and transaction data.
+The blocks in the blockchain hold batches of valid transactions, which are hashed and encoded into a [merkle tree](https://github.com/thisisjustinm/blockchain-reference/cryptoraphy/merkle-trees.md). 
 Each block requires a cryptographic hash of the last/previous block in the blockchain, thus linking both. 
 This iterative process confirms the integrity of the blockchain, all until the genesis block.
 
