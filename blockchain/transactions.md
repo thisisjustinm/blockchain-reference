@@ -31,8 +31,7 @@ Where
 * **Value**: Number of Satoshis the output is worth (1 BTC= 10\^8 Sat)
 * **ScriptPubKey**: Second half of script. This is the locking script.
 
-In bitcoin, there are two types of transactions **coinbase transactions** and **regular transactions**. Coinbase transactions are transactions in which new bitcoins are introduced to the system. They are included in every block as the first transaction and is meant for the miner as a reward for solving the ```PoW``` puzzle. On the other hand, regular transactions, are for transferring existing bitcoins among the users.
-
+In bitcoin, there are two types of transactions, **coinbase transactions** and **regular transactions**. Coinbase transactions are transactions in which new bitcoins are introduced to the system. They are included in every block as the first transaction and is meant for the miner as a reward for solving the ```PoW``` puzzle. On the other hand, regular transactions, are for transferring existing bitcoins among the users.
 Every bitcoin transaction, spends null or more bitcoins. The difference between the amount spent and recieved is the **transaction** fee. This fee may be collected by miners who include the transaction in a block. For e.g., if Alice wants to send 2 Bitcoins to Bob and pay 0.1 Bitcoins in transaction fees. She would supply an input with 2.1 Bitcoin's and send 2 to Bob. The remaining amount, if not sent back to her or someone else, will be collected by the miner as transaction fees.
 
 
