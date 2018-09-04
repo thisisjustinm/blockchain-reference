@@ -9,7 +9,7 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
  
 * [ ] **Blockchain**
   * [x] [Introduction](/blockchain/blockchain-introduction.md)
-  * [x] [Decentralised vs Distributed](/blockchain/decentralised-vs-distributed.md)
+  * [ ] [Decentralised vs Distributed](/blockchain/decentralised-vs-distributed.md)
   * [x] [Transactions](/blockchain/transactions.md)\(```Regular,Coinbase yet to be explained```\)
   * [ ] Blocks
   * [ ] Nodes\(```Full,Pruned```\)
