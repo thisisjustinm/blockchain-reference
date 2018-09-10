@@ -9,7 +9,7 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
  
 * [ ] **Blockchain**
   * [x] [Introduction](/blockchain/blockchain-introduction.md)
-  * [ ] [Decentralised vs Distributed](/blockchain/decentralised-vs-distributed.md)
+  * [x] [Decentralised vs Distributed](/blockchain/decentralised-vs-distributed.md)
   * [x] [Transactions](/blockchain/transactions.md)\(```Regular,Coinbase yet to be explained```\)
   * [ ] Blocks
   * [ ] Nodes\(```Full,Pruned```\)
@@ -29,12 +29,4 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
 
 
 
-
-___
-```
-Feel free to donate:
-
-* BTC : 3LaFBhv4fR9HNdG7rW72CURqiqaENQLJ8a
-* ETH : 0x5D26D0062e49C26Ee283CB80C70Bf54bD39016D7
-* LTC : MPwon17zrZApPyVjg6WgMuwkyQDE98gBMN
-```
+Read [here](https://help.github.com/articles/editing-files-in-another-user-s-repository/) on how to contribute to my guide.
