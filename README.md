@@ -28,5 +28,5 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
   * [ ] Introduction
 
 
-
+---
 Read [here](https://help.github.com/articles/editing-files-in-another-user-s-repository/) on how to contribute to my guide.
