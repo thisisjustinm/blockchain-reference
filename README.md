@@ -1,6 +1,8 @@
-## Layout
+## About
 
 I am writing this guide, to get well acquainted with Blockchain, as well as a reference guide for my Android application. Everything written here is copyleft, so use it in any way you like.
+
+## Layout
 
 * [x] **Cryptography Essentials**
   * [x] [What is Hashing?](/cryptography/what-is-hashing.md)
@@ -29,8 +31,11 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
 
 
 
+## Contributions
+Please go through [contributions.md](/contributions.md) on how to contribute to my guide.
+
+
 ## License
-![WTFPL License](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)
+![WTFPL License](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png) 
 
-
-> Read [here](https://help.github.com/articles/editing-files-in-another-user-s-repository/) on how to contribute to my guide.
+To the extent possible under law, Justin Mathew has waived all copyright and related or neighboring rights to this work.
