@@ -29,4 +29,6 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
 
 
 ---
+License : ![WTFPL License](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-3.png)
+
 Read [here](https://help.github.com/articles/editing-files-in-another-user-s-repository/) on how to contribute to my guide.
