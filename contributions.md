@@ -1,5 +1,7 @@
 ## Contributing to the guide
 
+Please go through the following steps on how to contrribute to the guide.
+
 1. In the repository, browse to the folder that contains the file you wish to edit. Click the name of the file you want to edit.
 2. Above the file content, click on the pencil icon. At this point, GitHub forks the repository for you.
 3. Make required changes to the file.
