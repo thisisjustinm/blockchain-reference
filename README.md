@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/thisisjustinm/blockchain-reference.svg?branch=master)](https://travis-ci.org/thisisjustinm/blockchain-reference)
 ## About
 
 I am writing this guide, to get well acquainted with Blockchain, as well as a reference guide for my Android application. Everything written here is copyleft, so use it in any way you like.
