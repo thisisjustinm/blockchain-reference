@@ -38,4 +38,4 @@ Please go through [contributions.md](/contributions.md) on how to contribute to 
 ## License
 ![WTFPL License](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png) 
 
-To the extent possible under law, Justin Mathew has waived all copyright and related or neighboring rights to this work.
+To the extent possible under law, Justin M has waived all copyright and related or neighboring rights to this work.
