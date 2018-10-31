@@ -6,7 +6,6 @@
 [lic-link]: https://github.com/thisisjustinm/blockchain-reference/blob/master/LICENSE
 [lic-img]: https://img.shields.io/badge/License-WTFPL-cadetblue.svg
 
-
 <br>
 
 ## Why? 
