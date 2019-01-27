@@ -25,7 +25,7 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
   * [x] [Decentralised vs Distributed](/blockchain/decentralised-vs-distributed.md)
   * [x] [Transactions](/blockchain/transactions.md)\(```Regular,Coinbase yet to be explained```\)
   * [x] [Blocks](/blockchain/blocks.md)
-  * [ ] Nodes\(```Full,Pruned```\)
+  * [x] Nodes(/blockchain/nodes.md)
   * [ ] Mining - ```Difficulty,Nonce, Mempool```
   * [ ] UTXOs
   * [ ] Consensus algorithms\(```PoW```,```PoS```\)
