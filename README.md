@@ -12,7 +12,7 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
 ## Layout
 
 * [x] **Cryptography Essentials**
-  * [x] [What is Hashing?](/cryptography/what-is-hashing.md)
+  * [x] [Hashing](/cryptography/what-is-hashing.md)
   * [x] [Public-key cryptography](/cryptography/public-key-cryptography.md)
   * [x] [Merkle trees](/cryptography/merkle-trees.md)
  
