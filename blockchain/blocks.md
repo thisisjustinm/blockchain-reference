@@ -1,7 +1,6 @@
 ## Blocks
 
-Every transaction that occurs, is permanently recorded in files called Blocks. It is similar to a page of a ledger, which consists of a certain amount of transaction data stored on it. These blocks are stored in a linear fashion and are related to each other(block chain).Each time a miner processes a transaction, it is added to a block which is added to the end of the blockchain. As more and more blocks are added
-to the blockchain, they become harder to remove, and hence gives rise to Irreversible Transactions.
+Every transaction that occurs, is permanently recorded in files called *blocks*. It is similar to a page of a ledger, which consists of a certain amount of transaction data stored on it. These blocks are stored in a linear fashion and are related to each other(hence the name, block-chain).Each time a miner processes a transaction, it is added to a block which in turn, is added to the end of the blockchain. As more and more blocks are added to the blockchain, they become harder to remove, and hence gives rise to *irreversible transactions*.
 
 ### Block Structure
 
