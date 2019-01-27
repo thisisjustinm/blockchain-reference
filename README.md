@@ -1,7 +1,5 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-steelblue.svg)](http://commonmark.org)
-
 
 
 <br>
@@ -23,7 +21,7 @@ I am writing this guide, to get well acquainted with Blockchain, as well as a re
   * [x] [Decentralised vs Distributed](/blockchain/decentralised-vs-distributed.md)
   * [x] [Transactions](/blockchain/transactions.md)\(```Regular,Coinbase yet to be explained```\)
   * [x] [Blocks](/blockchain/blocks.md)
-  * [x] Nodes(/blockchain/nodes.md)
+  * [x] [Nodes](/blockchain/nodes.md)
   * [ ] Mining - ```Difficulty,Nonce, Mempool```
   * [ ] UTXOs
   * [ ] Consensus algorithms\(```PoW```,```PoS```\)
