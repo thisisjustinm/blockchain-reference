@@ -1,10 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![contributions welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat)](https://github.com/thisisjustinm/blockchain-reference/pulls)
-[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-steelblue.svg)](http://commonmark.org)
-[![License][lic-img]][lic-link] 
 
-[lic-link]: https://github.com/thisisjustinm/blockchain-reference/blob/master/LICENSE
-[lic-img]: https://img.shields.io/badge/License-WTFPL-cadetblue.svg
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-steelblue.svg)](http://commonmark.org)
+
+
 
 <br>
 
